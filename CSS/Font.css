@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3ede3;
+    color: #333;
+    cursor: default;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color:rgb(72, 122, 80);
+    margin-top: 30px;
+    padding: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e3ede3;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 1.1em;
+    position: relative;
+}
+
+.no-active::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 2px;
+    background: #e3ede3;
+    right: 50%;
+    transition: width 0.4s ease, right 0.4s ease;
+}
+
+.no-active:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+.active {
+    text-decoration: underline 2px;
+    text-underline-offset: 6px;
+}
+
+.barre {
+    background-color: rgb(38, 66, 43);
+    margin-left: 50px;
+    width: 8%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color:rgb(20, 35, 22);
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#sous-titre {
+    margin-left: 200px;
+    margin-top: 10px;
+    color: rgb(20, 35, 22);
+}
+
+footer {
+    border-top: 6px solid rgb(38, 66, 43);
+    background-color:  #b1bfb3;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.table-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    width: 100%;
+    text-align: center;
+}
+
+#navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-navigation {
+    text-decoration: none;
+    color: rgb(20, 35, 22);
+    margin-bottom: 5px;
+}
+
+.link-navigation:hover {
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+    text-decoration-color: #e3ede3;
+}
+
+#social-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #186499;
+    font-weight: bold;
+}
+

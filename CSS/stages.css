@@ -1,0 +1,14 @@
+.main-container {
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.link-stage {
+    text-decoration: none;
+    color: rgb(72, 143, 81);
+}
+
+.link-stage:hover {
+    color: #0b100b;
+}
