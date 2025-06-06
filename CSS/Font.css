@@ -107,10 +107,13 @@ footer {
     flex-direction: column;
 }
 
+.div-link {
+    margin-bottom: 5px;
+}
+
 .link-navigation {
     text-decoration: none;
-    color: rgb(20, 35, 22);
-    margin-bottom: 5px;
+    color: #333;
 }
 
 .link-navigation:hover {
@@ -124,10 +127,12 @@ footer {
     flex-direction: column;
 }
 
-.social {
-    text-decoration: none;
-    margin-right: 30px;
-    color: #186499;
-    font-weight: bold;
+.social-icon {
+    width: 40px;
+    transition: width 0.3s ease;
+}
+
+.social-icon:hover {
+    width: 45px;
 }
 
