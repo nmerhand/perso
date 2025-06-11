@@ -104,3 +104,8 @@ footer {
     color: #186499;
     font-weight: bold;
 }
+
+.arrow-back {
+    width: 12px;
+    padding-right: 4px;
+}
