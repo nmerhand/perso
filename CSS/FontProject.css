@@ -66,7 +66,6 @@ footer {
     left: 0;
     width: 100%;
     padding: 7px;
-    text-align: center;
 }
 
 #footer-container {
@@ -75,35 +74,22 @@ footer {
     width: 100%;
 }
 
-.left {
+.back-container {
     margin-left: 15px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 12px;
     padding: 5px;
-    background-color: #f3f7f3;
     border-radius: 3px;
 }
 
-.left:hover {
-    background-color: #acc9ac;
+.back-container:hover {
+    background-color: #65916547;
     box-shadow: 0px 2px 5px rgba(71, 75, 71, 0.25);
 }
 
-.left-link {
+.link-back {
     text-decoration: none;
     color: rgb(20, 35, 22);
-    font-weight: bold;
-}
-
-.right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end; 
-}
-
-.social {
-    text-decoration: none;
-    margin-right: 30px;
-    color: #186499;
     font-weight: bold;
 }
 
@@ -111,3 +97,10 @@ footer {
     width: 12px;
     padding-right: 4px;
 }
+
+.social-icon {
+    margin-right: 30px;
+    width: 40px;
+    transition: width 0.3s ease;
+}
+

@@ -4,11 +4,29 @@
     margin-top: 40px;
 }
 
-.link-stage {
+.inner-link-stage {
     text-decoration: none;
     color: rgb(72, 143, 81);
 }
 
-.link-stage:hover {
+.inner-link-stage:hover {
     color: #0b100b;
+}
+
+.links-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.link-button {
+    background-color: #65916568;
+    padding: 8px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.link-button:hover {
+    background-color: #65916532;
+    cursor: pointer;;
+    border-radius: 15px;
 }

@@ -127,6 +127,26 @@ footer {
     flex-direction: column;
 }
 
+.contact-container {
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin: 5px;
+    margin-top: 0px
+}
+
+.link-contact {
+    text-decoration: none;
+    color: #333;
+}
+
+.link-contact:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+}
+
 .social-icon {
     width: 40px;
     transition: width 0.3s ease;
