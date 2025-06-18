@@ -47,18 +47,20 @@ h2 {
     margin-bottom: 6px;
 }
 
-#google {
-    text-decoration: none;
-    color: rgb(20, 35, 22);
-    background-color: rgba(72, 122, 80, 0.788);
-    padding: 7px;
-    border-radius: 2px;
+.button {
+    font-family: 'Raleway', sans-serif;
+    background-color: #65916568;
+    padding: 8px;
+    border: 0px;
+    border-radius: 3px;
 }
 
-#google:hover {
-    background-color: rgb(72, 122, 80, 0.788);
-    color: #f3f7f3;
+.button:hover {
+    background-color: #65916547;
+    cursor: pointer;;
+    border-radius: 15px;
 }
+
 
 footer {
     position: fixed;
