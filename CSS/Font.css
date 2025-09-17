@@ -145,6 +145,7 @@ footer {
     text-decoration: underline;
     text-underline-offset: 2px;
     text-decoration-thickness: 1px;
+    text-decoration-color: #e3ede3;
 }
 
 .social-icon {
