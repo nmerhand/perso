@@ -2,22 +2,25 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #e3ede3;
+    background-color: #F5F6FA; /* fond clair pro */
+    color: #2A2A2A;
 }
 
+/* HEADER */
 header {
-    background-color: rgb(72, 122, 80);
+    background-color: #2E3A59; /* bleu nuit tech */
     padding: 20px 100px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
 h1 {
     font-family: 'DM Sans', sans-serif;
-    color: #e3ede3;
+    color: #F5F6FA;
     font-size: 2.5em;
 }
 
+/* CONTENU PRINCIPAL */
 .main-container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -34,6 +37,7 @@ h1 {
 .title-section {
     font-family: 'DM Sans', sans-serif;
     padding-left: 25px;
+    color: #2E3A59;
 }
 
 .text {
@@ -42,21 +46,23 @@ h1 {
     padding: 25px;
     padding-top: 0px;
     padding-bottom: 20px;
+    color: #2A2A2A;
 }
 
+/* SÉPARATEUR */
 .séparation {
     border: none; 
-    border-top: 2px solid #65916547; 
+    border-top: 2px solid #C9B2B9; /* rose poudré */
     margin: 1rem 3.5rem;
 }
 
+/* SOURCES */
 .sources-container {
-    background-color: #65916547;
-    padding: 30px;
-    padding-top: 20px;
+    background-color: #E9ECF4; /* gris bleuté clair */
+    padding: 30px 30px 20px 30px;
     text-align: justify;
-    box-shadow: 0px 2px 10px rgba(71, 75, 71, 0.25);
-    border-radius: 3px;
+    box-shadow: 0px 2px 10px rgba(46, 58, 89, 0.2);
+    border-radius: 6px;
 }
 
 .source {   
@@ -65,10 +71,11 @@ h1 {
 
 .source-link {
     text-decoration: none;
-    color: rgb(20, 35, 22);
+    color: #2E3A59;
     font-weight: bold;
     position: relative;
     display: inline-block;
+    transition: color 0.3s ease;
 }
 
 .source-link::after {
@@ -78,10 +85,14 @@ h1 {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: rgb(72, 122, 80);
+    background-color: #C9B2B9; /* rose doux */
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.6s ease;
+}
+
+.source-link:hover {
+    color: #B79EA7; /* léger effet rosé sur le texte */
 }
 
 .source-link:hover::after {
@@ -89,6 +100,7 @@ h1 {
     transform-origin: bottom left;
 }
 
+/* FOOTER */
 footer {
     position: fixed;
     bottom: 0;
@@ -102,25 +114,27 @@ footer {
     display: flex;
     justify-content: space-between; 
     width: 100%;
+    align-items: center;
 }
 
+/* BOUTON RETOUR */
 .back-container {
     margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 12px;
-    padding: 5px;
-    background-color: #e3ede3;
-    border-radius: 3px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .back-container:hover {
-    background-color: #acc9ac;
-    box-shadow: 0px 2px 5px rgba(71, 75, 71, 0.25);
+    background-color: #C9B2B9; /* petit effet rosé au survol */
+    box-shadow: 0px 2px 5px rgba(46, 58, 89, 0.2);
 }
 
 .link-back {
     text-decoration: none;
-    color: rgb(20, 35, 22);
+    color: #2E3A59;
     font-weight: bold;
 }
 
@@ -129,9 +143,13 @@ footer {
     padding-right: 4px;
 }
 
+/* ICONES SOCIALES */
 .social-icon {
     margin-right: 30px;
-    width: 40px;
-    transition: width 0.3s ease;
+    width: 38px;
+    transition: transform 0.3s ease;
 }
 
+.social-icon:hover {
+    transform: scale(1.1);
+}

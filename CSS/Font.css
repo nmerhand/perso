@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Raleway:wght@400;700&display=swap');
 
-
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e3ede3;
-    color: #333;
+    background-color: #F5F6FA;
+    color: #2A2A2A;
     cursor: default;
     text-align: justify;
 }
@@ -14,14 +13,14 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color:rgb(72, 122, 80);
+    background-color: #2E3A59;
     margin-top: 30px;
     padding: 40px;
 }
 
 nav a {
     text-decoration: none;
-    color: #e3ede3;
+    color: #F5F6FA;
     font-weight: bold;
     margin-right: 10px;
     margin-left: 15px;
@@ -36,7 +35,7 @@ nav a {
     height: 2px;
     display: block;
     margin-top: 2px;
-    background: #e3ede3;
+    background: #C9B2B9;
     right: 50%;
     transition: width 0.4s ease, right 0.4s ease;
 }
@@ -47,12 +46,12 @@ nav a {
 }
 
 .active {
-    text-decoration: underline 2px;
+    text-decoration: underline 2px #C9B2B9;
     text-underline-offset: 6px;
 }
 
 .barre {
-    background-color: rgb(38, 66, 43);
+    background-color: #1F2535;
     margin-left: 50px;
     width: 8%;
     height: 100vh;
@@ -64,7 +63,7 @@ h1 {
     font-family: 'DM Sans', sans-serif;
     font-size: 3em;
     font-weight: bold;
-    color:rgb(20, 35, 22);
+    color: #2E3A59;
     margin-left: 200px;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -72,21 +71,23 @@ h1 {
 
 h2 {
     font-family: 'DM Sans', sans-serif;
+    color: #C9B2B9;
 }
 
 #sous-titre {
     margin-left: 200px;
     margin-top: 10px;
-    color: rgb(20, 35, 22);
+    color: #2E3A59;
 }
 
 footer {
-    border-top: 6px solid rgb(38, 66, 43);
-    background-color:  #b1bfb3;
+    border-top: 6px solid #1F2535;
+    background-color: #2E3A59;
     text-align: center;
     padding: 20px;
     position: relative;
     margin-top: 50px;
+    color: #F5F6FA;
 }
 
 .table-footer {
@@ -113,13 +114,13 @@ footer {
 
 .link-navigation {
     text-decoration: none;
-    color: #333;
+    color: #F5F6FA;
 }
 
 .link-navigation:hover {
     text-decoration: underline 2px;
     text-underline-offset: 3px;
-    text-decoration-color: #e3ede3;
+    text-decoration-color: #C9B2B9;
 }
 
 #social-container {
@@ -133,19 +134,19 @@ footer {
 
 .contact {
     margin: 5px;
-    margin-top: 0px
+    margin-top: 0px;
 }
 
 .link-contact {
     text-decoration: none;
-    color: #333;
+    color: #F5F6FA;
 }
 
 .link-contact:hover {
     text-decoration: underline;
     text-underline-offset: 2px;
     text-decoration-thickness: 1px;
-    text-decoration-color: #e3ede3;
+    text-decoration-color: #C9B2B9;
 }
 
 .social-icon {

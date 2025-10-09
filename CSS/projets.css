@@ -4,57 +4,65 @@
     margin-right: 50px;
 }
 
+/* ANNÉES */
 .annees {
-    align-items: center;
     display: inline-block;                    
     text-align: center;
     margin-left: 2%;
     margin-bottom: 25px;
     width: auto;
-    border: 2px solid #ccc;
-    border-radius: 3px;
-    box-shadow: 0px 2px 5px rgba(71, 75, 71, 0.25);;
+    border: 2px solid #C9B2B9; /* rosé subtil */
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px rgba(46, 58, 89, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* TITRE ANNÉE */
 .name-annee {
     text-align: center;
     font-size: 1.7em;
-    color: rgb(38, 66, 43);
+    color: #2E3A59; /* bleu nuit */
     font-weight: bold;
 }
 
+/* TEXTE PERSO / PRO */
 .perso-pro {
     text-align: justify;
     padding-left: 15px;
     font-size: 1.35em;
+    color: #2A2A2A;
 }
 
+/* BULLES PROJETS */
 .bulle {
-    align-items: center;
     display: inline-block;                    
     text-align: center;
     font-size: 1.3em;
-    border: 2px solid #7e907e8e;
+    border: 2px solid rgba(201, 178, 185, 0.5); /* rosé subtil transparent */
     padding: 20px;
     width: 21%;
     margin-left: 4%;
     margin-bottom: 20px;
-    border-radius: 3px;
-    transition: background-color 0.2s;
-} 
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px rgba(46, 58, 89, 0.2);
+    transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+}
 
 .bulle:hover {
-    background-color: #65916547;
-    border: 2px solid rgba(38, 66, 43, 0);
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    background-color: rgba(201, 178, 185, 0.1); /* voile rosé discret */
+    border-color: rgba(201, 178, 185, 0.7); /* accent rosé plus visible au hover */
+    box-shadow: 3px 3px 10px rgba(46, 58, 89, 0.3);
     cursor: pointer;
+    transform: translateY(-2px);
 }
 
+/* NOM DU PROJET */
 .name-project {
     font-weight: bold;
-    color: rgb(38, 66, 43);
+    color: #2E3A59; /* bleu nuit */
 }
 
+/* DESCRIPTION */
 .description {
-    color: #707e72;
+    color: #5A5A5A; /* gris doux neutre */
 }
