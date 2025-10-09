@@ -59,6 +59,16 @@ nav a {
     top: 0;
 }
 
+.main-container {
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.texte-container {
+    margin-top: 3%;
+}
+
 h1 {
     font-family: 'DM Sans', sans-serif;
     font-size: 3em;
@@ -169,4 +179,91 @@ footer {
     width: 20px;
     rotate: 90deg;
     padding-top: 30px;
+}
+
+/* --- Adaptation pour écrans très larges (ex. double écran) --- */
+@media (min-width: 1920px) {
+    .barre {
+        width: 5%; /* barre plus fine pour ne pas prendre trop d'espace */
+    }
+    h1, #sous-titre {
+        margin-left: 220px; /* légèrement plus large pour harmoniser avec la barre */
+    }
+    nav {
+        padding: 40px 60px;
+    }
+}
+
+/* --- Téléphones / tablettes --- */
+@media (max-width: 768px) {
+    .barre {
+        display: none; /* cacher la barre latérale */
+    }
+
+    /* Titres */
+    h1, h2, #sous-titre {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    #sous-titre {
+        font-size: 1em;
+    }
+
+    /* Container principal */
+    .main-container, .texte-container {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        margin-top: 20px;
+    }
+
+    body {
+        font-size: 0.95em;
+        padding: 0 10px; /* padding pour éviter que le texte touche les bords */
+        text-align: left;
+    }
+
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 8px 0;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    /* Footer */
+    .table-footer {
+        flex-direction: column;
+        padding: 0 10px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    #sous-titre {
+        font-size: 0.95em;
+    }
+    body {
+        font-size: 0.9em;
+    }
 }

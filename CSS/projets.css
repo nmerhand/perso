@@ -1,9 +1,3 @@
-.container {
-    margin-left: 200px;
-    margin-top: 40px;
-    margin-right: 50px;
-}
-
 /* ANNÉES */
 .annees {
     display: inline-block;                    
@@ -65,4 +59,31 @@
 /* DESCRIPTION */
 .description {
     color: #5A5A5A; /* gris doux neutre */
+}
+
+/* --- Masquer les descriptions sur mobile --- */
+@media (max-width: 768px) {
+    .description {
+        display: none;
+    }
+
+    /* Ajustements pour les bulles sur mobile */
+    .annees {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bulle {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .name-annee {
+        font-size: 1.6em; 
+    }
+
+    .perso-pro {
+        font-size: 1.1em;
+    }
 }
