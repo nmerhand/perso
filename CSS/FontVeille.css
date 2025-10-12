@@ -153,3 +153,36 @@ footer {
 .social-icon:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .main-container {
+        padding: 0 15px;
+    }
+
+    .text {
+        padding: 15px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .sources-container {
+        padding: 20px 15px 15px 15px;
+    }
+
+    .séparation {
+        margin: 1rem 1rem;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+    
+}

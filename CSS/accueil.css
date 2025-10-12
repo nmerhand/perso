@@ -57,3 +57,10 @@
     margin-top: 3%;
     color: #2A2A2A;
 }
+
+
+@media (max-width: 768px) {
+    .CV-links {
+        text-align: center;
+    }
+}
