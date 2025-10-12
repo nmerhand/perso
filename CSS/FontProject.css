@@ -75,7 +75,6 @@ ul {
     box-shadow: 0 3px 10px rgba(46, 58, 89, 0.2);
 }
 
-/* ======= BOUTONS ======= */
 .button {
     display: inline-block;
     background-color: rgba(201, 178, 185, 0.35);
@@ -94,7 +93,6 @@ ul {
     transform: translateY(-1px);
 }
 
-/* FOOTER */
 footer {
     position: fixed;
     bottom: 0;
@@ -111,7 +109,6 @@ footer {
     align-items: center;
 }
 
-/* BOUTON RETOUR */
 .back-container {
     margin-left: 15px;
     margin-top: 5px;

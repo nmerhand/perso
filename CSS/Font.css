@@ -190,23 +190,21 @@ footer {
     padding-top: 30px;
 }
 
-/* --- Adaptation pour écrans très larges (ex. double écran) --- */
 @media (min-width: 1920px) {
     .barre {
-        width: 5%; /* barre plus fine pour ne pas prendre trop d'espace */
+        width: 5%; 
     }
     h1, #sous-titre {
-        margin-left: 220px; /* légèrement plus large pour harmoniser avec la barre */
+        margin-left: 220px; 
     }
     nav {
         padding: 40px 60px;
     }
 }
 
-/* --- Téléphones / tablettes --- */
 @media (max-width: 768px) {
     .barre {
-        display: none; /* cacher la barre latérale */
+        display: none; 
     }
 
     /* Titres */
